@@ -11,6 +11,7 @@ class Program
         Console.WriteLine("Date now: " + DateTime.Now);
         
         // Input from user
+        Console.Write("Type your name: ");
         var name = Console.ReadLine();
         // Output to console
         Console.WriteLine("Hi, " + name);

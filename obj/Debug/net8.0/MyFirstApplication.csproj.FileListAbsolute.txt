@@ -1,0 +1,14 @@
+/Users/goodevaninja_mac1/Desktop/DotNet/dotnet-console-first/MyFirstApplication/bin/Debug/net8.0/MyFirstApplication
+/Users/goodevaninja_mac1/Desktop/DotNet/dotnet-console-first/MyFirstApplication/bin/Debug/net8.0/MyFirstApplication.deps.json
+/Users/goodevaninja_mac1/Desktop/DotNet/dotnet-console-first/MyFirstApplication/bin/Debug/net8.0/MyFirstApplication.runtimeconfig.json
+/Users/goodevaninja_mac1/Desktop/DotNet/dotnet-console-first/MyFirstApplication/bin/Debug/net8.0/MyFirstApplication.dll
+/Users/goodevaninja_mac1/Desktop/DotNet/dotnet-console-first/MyFirstApplication/bin/Debug/net8.0/MyFirstApplication.pdb
+/Users/goodevaninja_mac1/Desktop/DotNet/dotnet-console-first/MyFirstApplication/obj/Debug/net8.0/MyFirstApplication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/goodevaninja_mac1/Desktop/DotNet/dotnet-console-first/MyFirstApplication/obj/Debug/net8.0/MyFirstApplication.AssemblyInfoInputs.cache
+/Users/goodevaninja_mac1/Desktop/DotNet/dotnet-console-first/MyFirstApplication/obj/Debug/net8.0/MyFirstApplication.AssemblyInfo.cs
+/Users/goodevaninja_mac1/Desktop/DotNet/dotnet-console-first/MyFirstApplication/obj/Debug/net8.0/MyFirstApplication.csproj.CoreCompileInputs.cache
+/Users/goodevaninja_mac1/Desktop/DotNet/dotnet-console-first/MyFirstApplication/obj/Debug/net8.0/MyFirstApplication.dll
+/Users/goodevaninja_mac1/Desktop/DotNet/dotnet-console-first/MyFirstApplication/obj/Debug/net8.0/refint/MyFirstApplication.dll
+/Users/goodevaninja_mac1/Desktop/DotNet/dotnet-console-first/MyFirstApplication/obj/Debug/net8.0/MyFirstApplication.pdb
+/Users/goodevaninja_mac1/Desktop/DotNet/dotnet-console-first/MyFirstApplication/obj/Debug/net8.0/MyFirstApplication.genruntimeconfig.cache
+/Users/goodevaninja_mac1/Desktop/DotNet/dotnet-console-first/MyFirstApplication/obj/Debug/net8.0/ref/MyFirstApplication.dll

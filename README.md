@@ -64,7 +64,6 @@ Jika kita merujuk pada laman online site diatas kita ingin menampilkan tanda `*`
 
 ```.cs
 Console.WriteLine("\u002A");
-<<<<<<< Updated upstream
 ```
 ## d. Combine strings using string concatenation
 Sering kali, Anda harus menggabungkan data dari berbagai sumber, termasuk string harfiah dan variabel yang berisi data teks dan numerik. Di pelajaran ini, Anda akan menggunakan perangkaian string untuk menggabungkan dua atau lebih nilai menjadi string baru.
@@ -100,6 +99,3 @@ Pada langkah-langkah sebelumnya, Anda menggunakan variabel tambahan untuk menaha
 Console.WriteLine(greeting + " " + firstName + "!");
 ```
 Output tetap sama sebenarnya
-=======
-```
->>>>>>> Stashed changes

@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         // Call the Function method Type here
-        ThirdStage();
+        FourthStage();
     }
 
     static void FirstStage() {
@@ -23,5 +23,17 @@ class Program
     static void ThirdStage() {
         Console.WriteLine(@"    c:\source\repos    
         (this is where your code goes)");
+    }
+
+    static void FourthStage() {
+        string firstName = "Bob";
+        string message = "Hello " + firstName;
+        Console.WriteLine(message);
+
+        string greeting = "Hello";
+        string messagenew = greeting + " " + firstName + "!";
+        Console.WriteLine(messagenew);
+
+        Console.WriteLine(greeting + " " + firstName + "!");
     }
 }

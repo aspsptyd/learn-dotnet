@@ -60,6 +60,8 @@ Output `こんにちは World!`
 
 Jika kita merujuk pada laman online site diatas kita ingin menampilkan tanda `*` dengan karakter unicode kita gunakan code program berikut
 
+![Screenshot 2025-02-12 at 00 27 26](https://github.com/user-attachments/assets/f2c51584-382f-4e9c-a5a6-b1a15e668f71)
+
 ```.cs
 Console.WriteLine("\u002A");
 ```

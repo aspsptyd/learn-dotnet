@@ -9,28 +9,19 @@ class Program
     }
 
     static void FirstStage() {
-        string name = "Bob";
-        int value = 3;
-        float temperature = 34.4f;
-
-        Console.WriteLine($"Hello, {name}! You have {value} messages in your inbox. The temperature is {temperature} celsius.");
+        Console.WriteLine("Hello\nWorld!");
+        Console.WriteLine("Hello\tWorld!");
     }
 
     static void SecondStage() {
-        decimal value = 3.14159265359m;
-        double radius = 2.5323;
-
-        Console.WriteLine($"The value of Pi is approximately {value}.");
-        Console.WriteLine($"The radius of the circle is {radius}.");
+        Console.WriteLine("Generating invoices for customer \"Contoso Corp\" ... \n");
+        Console.WriteLine("Invoice: 1021\t\tComplete!");
+        Console.WriteLine("Invoice: 1022\t\tComplete!");
+        Console.WriteLine("\nOutput Directory:\t");
     }
 
     static void ThirdStage() {
-        bool isStatus = false;
-        int age = 20;
-        if (age >= 18) {
-            isStatus = true;
-        }
-
-        Console.WriteLine($"Is the person {age} years old, an adult? {isStatus}");
+        Console.WriteLine(@"    c:\source\repos    
+        (this is where your code goes)");
     }
 }

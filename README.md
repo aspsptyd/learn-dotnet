@@ -99,3 +99,59 @@ Pada langkah-langkah sebelumnya, Anda menggunakan variabel tambahan untuk menaha
 Console.WriteLine(greeting + " " + firstName + "!");
 ```
 Output tetap sama sebenarnya
+## e. Combine strings using string interpolation
+Meskipun perangkaian string sederhana dan mudah dilakukan, interpolasi string menjadi lebih populer dalam situasi saat Anda perlu menggabungkan banyak string literal dan variabel ke dalam satu pesan yang diformat.
+
+Ianya menggabungkan beberapa nilai menjadi string literal tunggal dengan menggunakan "templat" dan satu atau beberapa ekspresi interpolasi. Ekspresi interpolasi ditunjukkan oleh simbol `{ }` kurung kurawal pembuka dan penutupan kurung kurawal. Anda dapat menempatkan ekspresi C# apa pun yang mengembalikan nilai di dalam kurung kurawal. String literal menjadi templat saat diawali oleh karakter `$`.
+
+Daripada menuliskan code program
+
+```.cs
+string message = greeting + " " + firstName + "!";
+```
+lebih baik seperti berikut
+```.cs
+string message = $"{greeting} {firstName}!";
+```
+Dalam contoh sederhana ini, Anda menghemat beberapa tombol untuk ditekan. Anda dapat membayangkan berapa banyak interpolasi string yang lebih ringkas berada dalam operasi yang lebih kompleks. Selain itu, banyak yang berpikir bahwa sintaks interpolasi string lebih rapi dan mudah dibaca.
+
+### 1. Use string interpolation to combine a literal string and a variable value
+Untuk menginterpolasi dua string bersama-sama, Anda membuat string literal dan mengawali string dengan simbol `$`. String harfiah harus berisi setidaknya satu set kurung kurawal `{}` dan di dalam karakter tersebut, Anda menggunakan nama variabel.
+
+```.cs
+string firstName = "Bob";
+string message = $"Hello {firstName}!";
+Console.WriteLine(message);
+```
+Secara output sebenarnya sama saja seperti definisi sebelum pembahasan ini, namun lebih ringkas
+
+### 2. Use string interpolation with multiple variables and literal strings
+Anda dapat melakukan beberapa operasi interpolasi di baris kode yang sama.
+
+```.cs
+int version = 11;
+string updateText = "Update to Windows";
+string message = $"{updateText} {version}";
+Console.WriteLine(message);
+```
+Output `Update to Windows 11`
+
+### 3. Avoid intermediate variables
+Sama seperti yang Anda lakukan di latihan sebelumnya, Anda dapat menghilangkan variabel sementara untuk menyimpan pesan.
+
+```.cs
+int version = 11;
+string updateText = "Update to Windows";
+Console.WriteLine($"{updateText} {version}!");
+```
+Output `Update to Windows 11`
+
+### 4. Combine verbatim literals and string interpolation
+Misalkan Anda perlu menggunakan literal verbatim dalam templat. Anda dapat menggunakan simbol awalan literal verbatim `@` dan simbol interpolasi string `$` bersama-sama.
+
+```.cs
+string projectName = "First-Project";
+Console.WriteLine($@"C:\Output\{projectName}\Data");
+```
+Output `C:\Output\First-Project\Data`
+Dalam contoh ini, `$` simbol memungkinkan Anda untuk mereferensikan `projectName` variabel di dalam kurung kurawal, sementara `@` simbol memungkinkan Anda untuk menggunakan karakter yang tidak dilewati `\`.

@@ -4,28 +4,33 @@ class Program
 {
     static void Main()
     {
-        // Output to console basic text
-        // Console.WriteLine(TextHello());
-
-        // Output  get datetime to console
-        // Console.WriteLine(GetDateSystem());
-        
-        // Input from user
-        Console.WriteLine(InputFromUser());
+        // Call the Function method Type here
+        ThirdStage();
     }
 
-    static String TextHello() {
-        return "Hello World!";
+    static void FirstStage() {
+        string name = "Bob";
+        int value = 3;
+        float temperature = 34.4f;
+
+        Console.WriteLine($"Hello, {name}! You have {value} messages in your inbox. The temperature is {temperature} celsius.");
     }
 
-    static String GetDateSystem() {
-        DateTime getDateBySystem = DateTime.Now;
-        return "Date now: " + getDateBySystem;
+    static void SecondStage() {
+        decimal value = 3.14159265359m;
+        double radius = 2.5323;
+
+        Console.WriteLine($"The value of Pi is approximately {value}.");
+        Console.WriteLine($"The radius of the circle is {radius}.");
     }
 
-    static String InputFromUser() {
-        Console.Write("Type your name: ");
-        var name = Console.ReadLine();
-        return "Hi, " + name;
+    static void ThirdStage() {
+        bool isStatus = false;
+        int age = 20;
+        if (age >= 18) {
+            isStatus = true;
+        }
+
+        Console.WriteLine($"Is the person {age} years old, an adult? {isStatus}");
     }
 }

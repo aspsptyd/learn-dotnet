@@ -65,3 +65,37 @@ Jika kita merujuk pada laman online site diatas kita ingin menampilkan tanda `*`
 ```.cs
 Console.WriteLine("\u002A");
 ```
+## d. Combine strings using string concatenation
+Sering kali, Anda harus menggabungkan data dari berbagai sumber, termasuk string harfiah dan variabel yang berisi data teks dan numerik. Di pelajaran ini, Anda akan menggunakan perangkaian string untuk menggabungkan dua atau lebih nilai menjadi string baru.
+
+Sederhananya misal menggabungkan kata `Rumah Makan` rangkaian 2 kata dijadikan 1 `Rumah` dan `Makan`
+
+String concatenationadalah "programmer speak" hanya untuk menggabungkan dua nilai atau lebih string ke dalam nilai baru string . Tidak seperti penambahan, nilai kedua ditambahkan ke akhir nilai pertama, dan seterusnya. Dalam latihan berikut, Anda akan menulis kode untuk menggabungkan string nilai bersama-sama.
+
+### 1. Menggabungkan string literal dan variabel
+Untuk menggabungkan dua string, Anda menggunakan operator perangkaian string, yang merupakan simbol plus `+`
+
+```.cs
+string firstName = "Bob";
+string message = "Hello " + firstName;
+Console.WriteLine(message);
+```
+Perhatikan urutannya—string "Hello " pertama berada di string baru, dan nilai dalam firstName variabel ditambahkan ke akhir.
+
+### 2. Concatenate multiple variables and literal strings
+Anda dapat melakukan beberapa operasi perangkaian dalam baris kode yang sama. Di sini Anda membuat pesan yang lebih kompleks dengan menggabungkan beberapa variabel dan string literal.
+
+```.cs
+string firstName = "Bob";
+string greeting = "Hello";
+string message = greeting + " " + firstName + "!";
+Console.WriteLine(message);
+```
+
+### 3. Avoiding intermediate variables
+Pada langkah-langkah sebelumnya, Anda menggunakan variabel tambahan untuk menahan string baru yang dihasilkan dari operasi perangkaian (concatenation). Kecuali Anda memiliki alasan yang baik untuk melakukannya, Anda dapat (dan harus) menghindari penggunaan variabel perantara dengan melakukan operasi perangkaian sesuai kebutuhan.
+
+```.cs
+Console.WriteLine(greeting + " " + firstName + "!");
+```
+Output tetap sama sebenarnya
